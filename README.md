@@ -1,3 +1,3 @@
 # Sallenave
 
-php class exercises
+php class exercises sites as webmasters, web academy, custom.
