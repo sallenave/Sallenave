@@ -1,6 +1,6 @@
 <?php
 /** O nome do banco de dados*/
-define('DB_NAME', 'escola);
+define('DB_NAME', 'escola');
 /** Usuário do banco de dados MySQL */
 define('DB_USER', 'root');
 /** Senha do banco de dados MySQL */
@@ -17,4 +17,8 @@ if ( !defined('BASEURL') )
 	
 /** caminho do arquivo de banco de dados **/
 if ( !defined('DBAPI') )
-	define('DBAPI', ABSPATH . 'inc/database.php');
+	define('DBAPI', ABSPATH . 'inc/conexao.php');
+
+/** caminhos dos templates de header e footer **/
+define('HEADER_TEMPLATE', ABSPATH . 'inc/header.php');
+define('FOOTER_TEMPLATE', ABSPATH . 'inc/footer.php');
